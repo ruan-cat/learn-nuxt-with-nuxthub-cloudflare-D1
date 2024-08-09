@@ -3,7 +3,6 @@ node_modules
 .nuxt
 nuxt.d.ts
 .output
-.env
 .history
 db.sqlite
 dist
@@ -11,3 +10,7 @@ dist
 .netlify
 db.sqlite-*
 .data
+
+# 明文传输token 目前无法实现有效的登录。
+# .env
+pnpm-lock.yaml
