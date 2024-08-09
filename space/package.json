@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-space-layer",
+  "version": "0.4.2",
+  "description": "Bring fullstack capababilities to Nuxt apps, for the edge.",
+  "main": "nuxt.config.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Atinux",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@libsql/client": "^0.1.4",
+    "better-sqlite3": "^8.3.0",
+    "bufferutil": "^4.0.7",
+    "drizzle-kit": "^0.17.6",
+    "drizzle-orm": "^0.25.4",
+    "utf-8-validate": "^6.0.3"
+  }
+}

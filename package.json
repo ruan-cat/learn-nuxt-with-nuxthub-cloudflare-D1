@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "preview": "nuxt preview",
+    "migrations": "drizzle-kit generate:sqlite",
+    "lint": "eslint .",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@iconify-json/simple-icons": "^1.1.52",
+    "@libsql/client": "^0.1.4",
+    "@nuxthq/ui": "npm:@nuxthq/ui-edge@2.0.0-28062278.24e7109",
+    "better-sqlite3": "^8.3.0",
+    "bufferutil": "^4.0.7",
+    "drizzle-kit": "^0.17.6",
+    "drizzle-orm": "^0.25.4",
+    "h3-zod": "^0.5.1",
+    "utf-8-validate": "^6.0.3",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^0.4.6",
+    "@nuxt/eslint-config": "^0.1.1",
+    "eslint": "^8.40.0",
+    "nuxt": "^3.4.3",
+    "typescript": "^5.0.4"
+  }
+}
